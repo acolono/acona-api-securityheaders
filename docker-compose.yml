@@ -1,0 +1,12 @@
+version: "2.2"
+services:
+
+  web:
+    build: .
+    restart: unless-stopped
+    read_only: true
+    mem_limit: "4g"
+    cap_drop:
+      - ALL
+    tmpfs:
+      - /tmp
