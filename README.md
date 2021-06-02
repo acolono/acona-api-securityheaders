@@ -7,5 +7,5 @@ Get the Security Headers from a website with additional informations via API cal
 Pass your url over as a parameter to the API
 
 ```
-https://securityheaders.acona.app/?url=https://orf.at
+https://securityheaders.acona.app/securityheaders?url=https://orf.at
 ```
